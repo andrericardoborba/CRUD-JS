@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+
+}
+
+h1, h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#inputName, label{
+    font-size: 22px;
+}
+
+#card{
+    min-width: 500px;
+    background-color: #015151;
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+ul,li{
+    list-style: none;
+    font-family: cursive;
+    font-size: larger;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.deleteButton{
+    color: white;
+    font-weight: bold;
+    background-color: darkred;
+    margin-right: 10px;
+    border-radius: 50%;
+}
